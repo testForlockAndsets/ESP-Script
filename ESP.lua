@@ -10,7 +10,7 @@ local Find_Required = API_Check()
 
 if Find_Required == "No" then
     game:GetService("StarterGui"):SetCore("SendNotification",{
-        Title = "Exunys Developer";
+        Title = "TAY.CC,esp";
         Text = "ESP script could not be loaded because your exploit is unsupported.";
         Duration = math.huge;
         Button1 = "OK"
@@ -40,7 +40,7 @@ _G.OutlineColor = Color3.fromRGB(0, 0, 0)   -- The outline color of the text.
 _G.TextTransparency = 0.7   -- The transparency of the text.
 _G.TextFont = Drawing.Fonts.UI   -- The font of the text. (UI, System, Plex, Monospace) 
 
-_G.DisableKey = Enum.KeyCode.Q   -- The key that disables / enables the ESP.
+_G.DisableKey = Enum.KeyCode.P   -- The key that disables / enables the ESP.
 
 local function CreateESP()
     for _, v in next, Players:GetPlayers() do
